@@ -1,0 +1,36 @@
+Insert into product (P_id, P_name,P_description,P_price,P_picture,P_year)
+values((SELECT MAX(P_id)+1 FROM product innerQuery),'Fading Shadows' ,'Fading Shadows sees the player faced with the challenge of saving Erwyn, whose death, according to the millennia-old prophecy, will allow evil master Gardal to breach the gates of the Castle of Heaven, the supreme fortress built to protect the world from the forces of darkness. Erywn's soul has been enclosed in a protective orb by his clairvoyant sister, Aira, and the orb must now be returned to the dungeon where Erwyn is captive, using a magical beam of light. The player must control the beam of light and exploit the state-changing abilities of the orb to fulfil the challenges of the 40 single player levels or 10 multiplayer levels.'
+,19.99,'FS/fs.jpg',2000 ),
+
+((SELECT MAX(P_id)+1 FROM product innerQuery),'Gadget Racers' ,'Seventy thousand years of peace has finally come to an end. The evil that lay dormant is now beginning to stir. Will a hero emerge once more to shed light upon the shadow? Ferocious beasts and monsters have invaded your lands. Delve deep underground and create a grand dungeon to lure the evil and vanquish it forever.'
+,19.99,'GR/gr.jpg',2007 ),
+
+((SELECT MAX(P_id)+1 FROM product innerQuery),'inviZimalsª Shadow Zone' ,'Continue the hunt for inviZimalsTM, the hidden creatures that only your PSP can see. Your mission is to help create the Alliance - a Secret Society of inviZimalsTM Hunters. Travel the world and embark on a thrilling new adventure as you master new skills to capture and battle with the most incredible creatures you've ever experienced. '
+,29.99,'ISZ/isz.jpg,2013 ),
+
+((SELECT MAX(P_id)+1 FROM product innerQuery),'Madden NFL 12' ,'Madden NFL 12 continues the rich tradition of the storied franchise by bringing fans closer to the NFL than ever before. Featuring all 32 teams, stadiums, and your favorite players, Madden NFL 12 is True to the Game. Whether you're reliving the greatest moments from last season, building the NFL's next great dynasty, or putting your skills and stamina to the test in Mini-Camp, Madden NFL 12 is True to the NFL, True to the Franchise, True to the Game.'
+,19.99,'NFL/nfl12',2012 ),
+
+((SELECT MAX(P_id)+1 FROM product innerQuery),'Mana Khemia Student' ,'The 4th entry in the RPG series, Mana Khemia is different from the previous Atelier Iris games. Mana Khemia is a campus sim style RPG, where you can interact with classmates and professors to complete academic quests. You play as Vayne Aurelius, a novice alchemist who was invited to attend Al - Revis Academy. At the academy, Vayne will meet human and not so human alchemists, and together you will solve the mysteries of alchemy.'
+,19.99,'NKS/mks.jpg',2010 ),
+
+((SELECT MAX(P_id)+1 FROM product innerQuery),'name' ,'description'
+,19.99,'   img ',year ),
+
+((SELECT MAX(P_id)+1 FROM product innerQuery),'name' ,'description'
+,19.99,'   img ',year ),
+
+((SELECT MAX(P_id)+1 FROM product innerQuery),'name' ,'description'
+,19.99,'   img ',year ),
+
+((SELECT MAX(P_id)+1 FROM product innerQuery),'name' ,'description'
+,19.99,'   img ',year ),
+
+((SELECT MAX(P_id)+1 FROM product innerQuery),'name' ,'description'
+,19.99,'   img ',year ),
+
+((SELECT MAX(P_id)+1 FROM product innerQuery),'name' ,'description'
+,19.99,'   img ',year ),
+
+((SELECT MAX(P_id)+1 FROM product innerQuery),'name' ,'description'
+,19.99,'   img ',year ),

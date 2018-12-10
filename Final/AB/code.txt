@@ -1,0 +1,21 @@
+Insert into product (P_id, P_name,P_description,P_price,P_picture,P_year)
+((SELECT MAX(P_id)+1 FROM product innerQuery),'name' ,'description'
+,19.99,'   img ',year ),
+
+((SELECT MAX(P_id)+1 FROM product innerQuery),'name' ,'description'
+,19.99,'   img ',year ),
+
+((SELECT MAX(P_id)+1 FROM product innerQuery),'name' ,'description'
+,19.99,'   img ',year ),
+
+((SELECT MAX(P_id)+1 FROM product innerQuery),'name' ,'description'
+,19.99,'   img ',year ),
+
+((SELECT MAX(P_id)+1 FROM product innerQuery),'name' ,'description'
+,19.99,'   img ',year ),
+
+((SELECT MAX(P_id)+1 FROM product innerQuery),'name' ,'description'
+,19.99,'   img ',year ),
+
+((SELECT MAX(P_id)+1 FROM product innerQuery),'name' ,'description'
+,19.99,'   img ',year ),
